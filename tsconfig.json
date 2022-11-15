@@ -1,16 +1,23 @@
 {
   "compilerOptions": {
+    "sourceMap": false,
+    "useDefineForClassFields": false,
+    "allowJs": false,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "removeComments": false,
     "target": "esnext",
     "module": "esnext",
-    "lib": ["esnext", "DOM"],
     "moduleResolution": "node",
-    "esModuleInterop": true,
     "strict": true,
-    "jsx": "preserve",
+    "baseUrl": "./src",
+    "declaration": true,
     "strictNullChecks": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "skipDefaultLibCheck": true,
-    "types": ["vitest/globals"]
+    "types": [
+      "vitest/globals"
+    ]
   }
 }

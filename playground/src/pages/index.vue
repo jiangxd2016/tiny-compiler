@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { one } from '~/index';
+// import { one } from '~/index';
 const name = $ref('');
 
 const router = useRouter();
@@ -13,7 +13,7 @@ const go = () => {
     <div i-carbon-campsite text-4xl inline-block />
     <p>
       <a rel="noreferrer" href="https://github.com/Simon-He95/vitesse-lite" target="_blank">
-        Vitesse Lite {{ one }}
+        Vitesse Lite
       </a>
     </p>
     <p>
